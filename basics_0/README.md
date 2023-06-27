@@ -25,3 +25,12 @@ Une adresse MAC (Media Access Control) est un identifiant unique attribué à un
 Une adresse MAC est composée de six groupes de deux chiffres hexadécimaux (0 à 9 et A à F), séparés par des points ou des tirets. Elle est utilisée au niveau de la couche de liaison de données du modèle OSI pour identifier de manière unique un appareil sur un réseau.
 
 En revanche, une adresse IP (Internet Protocol) est une étiquette numérique attribuée à chaque appareil connecté à un réseau. Elle sert d'adresse réseau à l'appareil et permet aux appareils de communiquer entre eux sur des réseaux basés sur IP, tels que l'internet. Une adresse IP est composée d'une série de quatre nombres séparés par des points (par exemple, 192.168.0.1) et est associée à la couche réseau du modèle OSI.
+
+
+Task. 4
+
+TCP garantit la livraison fiable des données, ce qui signifie qu'il s'assure que toutes les données sont reçues dans l'ordre correct, sans perte ni altération.
+
+Contrairement à TCP, UDP ne garantit pas la livraison fiable des données et peut donc entraîner des pertes de données pendant le transfert.
+
+Le travailleur TCP vérifie si les boîtes spécifiques x, y et z ont été reçues avec succès.
